@@ -34,5 +34,6 @@ To resolve it type: ```git push origin HEAD:master```
 
 This issue highlights possible updates to the script
 - A way to determine the head branch 'main' or 'master'.
+- I am also assuming that the remote/upstream repository will be using 'upstream/master' and not 'main'. We should have a chack for that as well.
 - Use one or the other when you change branches at the beginning
 
