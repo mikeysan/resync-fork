@@ -5,7 +5,7 @@ This project seeks to be an easy way to update an outdated forked project.
 ### Requirements:
 - You will need to edit the code to change some hardcoded variables. For example:
     - TODO: Set variables to GitHub username
-    - TODO: Set default directory path
+    - TODO: Change working directory
     
 - Running the scripts takes two arguments:
     - 1. The remote user account,
