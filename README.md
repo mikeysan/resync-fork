@@ -3,14 +3,18 @@
 This project seeks to be an easy way to update an outdated forked project.
 
 ### Requirements:
-- It takes two arguments:
+- You will need to edit the code to change some hardcoded variables. For example:
+    - TODO: Set variables to GitHub username
+    - TODO: Set default directory path
+    
+- Running the scripts takes two arguments:
     - 1. The remote user account,
     - 2. and the repository.
 - USAGE: `python refresh.py [remote_user] [repository]`
 
-TODO: I might change the arguments to user inputs that are requested when the script is run (hmm...).
-
-TODO: Make the input an option for if no argument is provided or if missing.
+##### Note to Self/Contributor
+- TODO: I might change the arguments to user inputs that are requested when the script is run (hmm...).
+- TODO: Make the input an option for if no argument is provided or if missing.
 
 
 ### Known issues:
