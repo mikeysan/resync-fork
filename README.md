@@ -2,6 +2,7 @@
 
 This project seeks to be an easy way to update an outdated forked project.
 
+
 ### Requirements:
 - You'll need to edit the code to change some hardcoded variables. For example:
     - TODO: Set variables to GitHub username
