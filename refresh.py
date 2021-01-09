@@ -7,19 +7,25 @@ import os
 	1. The remote user account,
 	2. and the repository.
 	USAGE: python refresh.py [remote_user] [repository]
+	TODO FOR SELF/CONTRIBUTORS:
 	TODO: I might change the arguments to user inputs that are requested when the script is run (hmm...)
 	TODO: Make the input an option if no argument is provided or if missing
 
 '''
 
 # Set variables
+'''
+	TODO: Change values of yourUser to GitHub username
+'''
 yourUser = "mikeysan"
 remoteUser = str(sys.argv[1])
 repository = str(sys.argv[2])
 
 
 # os.path.isdir(path)
-# Change working directory
+'''
+	TODO: Change values of chgDir to path of the working directory
+'''
 chgDir = os.chdir('C:\\Users\\phil4\\Documents')
 path = os.getcwd()
 
