@@ -49,7 +49,7 @@ def createGit():
         os.system('git commit -m "first commit"')
         os.system('git branch -M main')
         print(f'Git for {repository} initialized')
-    except (FileNotFoundError, IOError,AttributeError):
+    except (FileNotFoundError, IOError, AttributeError):
         print(f'Unable to initialize {repository}')
 
 
@@ -72,12 +72,12 @@ def createFolder():
 
         print(f'{repository} created locally')
         
-    except (FileNotFoundError, IOError,AttributeError):
+    except (FileNotFoundError, IOError, AttributeError):
         print("create <project_name> l")
 
 
 # createFolder()
-os.path
+# os.path
 
 if os.path.isdir(_dir):
     try:
@@ -100,7 +100,7 @@ if os.path.isdir(_dir):
         print('Merged upstream/master\n')
         os.system('git push origin main')
         print('All changes pushed to our repository\n')
-    except (FileNotFoundError, IOError,AttributeError):
+    except (FileNotFoundError, IOError, AttributeError):
         print(f"{_dir} Missing!")
 else:
     try:
@@ -122,6 +122,5 @@ else:
         os.system('git merge upstream/master')
         os.system('git push origin main')
 
-    except (FileNotFoundError, IOError,AttributeError):
+    except (FileNotFoundError, IOError, AttributeError):
         print(f"{_dir} Missing!")
-
